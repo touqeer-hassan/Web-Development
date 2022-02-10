@@ -1,0 +1,51 @@
+The purpose of the site is to be able to read blog posts and to be able to login in order to make posts using the add posts page.
+
+The templates were adapted by following the steps within the assignment step by step ( made sure to comment each step in order for the TA to see how I was able to make it look like the expected output)
+
+
+I have uploaded this all to a live server for your viewing.
+
+
+The About Template:
+Changed the top name to my name of which links to the about.php page 
+Added links to the Home, About, Add Post and Login pages
+Removed the logos for Facebook, Instagram and Twitter at the bottom of the page
+
+The AddPost template :
+Made it possible to add a post to the page. 
+It allows a description to be added and the post will be made!
+
+The Login Template:
+Changed the main title on the image from "Contact Me" to "picturegram" and added under
+"picturegram" – "LOGIN TO YOUR ACCOUNT" as Heading 2.
+Also changed the navigation bar items such as the title on right hand side to picturegram from my own name. The contact form and button were customized in order to have Username and Password written prior to user clicking on it.
+
+updated file to php format
+
+
+
+Index page: 
+converted the pages html that displayed the posts to php. The php allows the posts to be shown in the same manner with one loop which will read through the fileNames.txt
+
+
+Fixes from previous assignment:
+I had no comments on last assignment.
+
+Description of the database:
+There are 3 tables used in the database under pIctugrame
+These tables include Users , Posts and Comments.
+The user table holds the name of all the users of the system 
+ 
+The posts table will hold information related to the posts ( a PostID, the UserID of who made the post, the PostImage file name, the date of the post,and  the text of the post )
+
+The Comments table includes CommentID, UserID, PostD, Comment, and Date.
+
+Description of how I implement the search:
+Have not implemented the search yet 
+
+References:
+
+All images and logos are from Dalhousie Server Side Scripting class and the templates are used from bootstrap. ALl rights go to those two sources.
+
+
+
